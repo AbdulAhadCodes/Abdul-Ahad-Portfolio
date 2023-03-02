@@ -1,0 +1,399 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+.top-header{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 10%;
+    background-color: #363543;
+    
+}
+.adam{
+    color: white;
+    font-size: 28px;
+  
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: rgb(186, 176, 176);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-icons{
+    display: flex;
+}
+.icons{
+    color: rgb(186, 176, 176);
+    
+}
+
+.icons i {
+    padding: 20px 10px;
+    font-size: large;
+}
+
+
+.mid-box{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin-top: 0px;
+    background-color: #363543;
+    height: 80vh;
+  
+   
+}
+    
+
+h1{
+    position: relative;
+    color: #91909e;
+    font-size: 40px;
+    z-index: 1;
+   
+}
+strong{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.center-circle{
+    position: absolute;
+    width: 600px;
+    height:600px;
+    border-radius: 50%;
+    background-color: rgba(45,45,57,255);
+    padding-left: 60px;
+    padding-top: 10px;
+    display: flex;
+}
+.center-circle img{
+    padding-top: 40px;
+    z-index: 1;
+    height: 700px;
+    width: 800px;
+    right: 10px;
+    position: relative;
+    top: -150px;
+
+}
+
+.leftext{
+    position: relative;
+    left: -110px;
+letter-spacing: 0.1em;
+text-decoration: none;
+align-content: center;
+line-height: 2;
+color: #91909e;
+
+}
+.singleline{
+    height: 5px;
+    background-color: #fab829;
+    width: 150px;
+    
+}
+.rightext{
+color: rgb(214, 208, 208);
+line-height: 2;
+position: relative;
+right: 180px;
+
+}
+.rightext h4{color: #fdfcff;
+font-size: 20px;}
+.arrow{
+    display: flex;
+    align-items: center;
+    color: #fab829;
+    
+}
+.socialicons{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    color: #f4ad16;
+  
+    
+}
+.socialicons i{
+    background-color: #282834;
+    border-radius: 50%;
+}
+
+
+
+.mid-links{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 70%;
+    height:100px;
+    background-color:#363543;
+    margin:auto;
+    box-shadow: 0px 0px 3px 2px rgb(40, 37, 37);
+    z-index: 1;
+    bottom: 50px;
+    
+}
+.fb{
+    display: flex;
+    background-color: rgba(45,45,57,255);
+    width: 13%;
+    align-items: center;
+    justify-content: center;
+}
+.google{
+    display: flex;
+    background-color: rgba(45,45,57,255);
+    height: 50px;
+    width: 14%;
+    align-items: center;
+    justify-content: center;
+}
+.linkedin{
+    display: flex;
+    background-color: rgba(45,45,57,255);
+    height: 50px;
+    width: 13%;
+    align-items: center;
+    justify-content: center;
+}
+.slack{
+    display: flex;
+    background-color: rgba(45,45,57,255);
+    width: 13%;
+height: 50px;
+align-items: center;
+    justify-content: center;
+}
+.meta span{
+    color: white;
+    font-family: serif;
+    font-size: 25px;
+    
+}
+.google span{
+    color: white;
+    font-family: serif;
+    
+}
+.linkedin span{
+    color: white;
+    font-family: serif;
+    font-size: 25px;
+    font-weight: 400;
+    
+}
+.slack span{
+    color: white;
+    font-family: serif;
+    font-size: 25px;
+    font-weight: bold;
+   
+}
+
+
+
+.web-about{
+    background-color: #282834;
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 130vh;
+    width: 100%;
+    
+
+}
+.about-desc{
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    position: relative;
+    right: 100px;
+}
+.about-desc h2{
+    color: #fdfeff;
+    font-size: 50px;
+}
+.about-desc p{
+    color: #bdbdc9;
+    font-size: 20px;
+}
+.about-num span{
+    color: #fdb71b;
+    font-size: 25px;
+}
+.about-num{
+    display: flex;
+    justify-content:space-between;
+}
+
+
+
+
+
+.t-experience{
+    align-items: center;
+    justify-content: center;
+    color: beige;
+    position: relative;
+    line-height:2.7;
+    height: 60vh;
+    left: 100px;
+}
+
+.t-experience h3{
+    font-size: 20px;
+    color: #e5e3ee;
+}
+.t-experience hr{
+    width: 100%;
+    height: 2px;
+    background-color: #bab8cd;
+}
+.t-experience span{
+    color: #f2b537;
+}
+.t-experience p{
+font-size: 15px;
+color: #bdbdc9;
+
+
+}
+
+.ui {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    
+    
+}
+.ui span{
+    padding: 0px 90px;
+    position: absolute;
+
+}
+.web {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+
+    
+}
+.web span{
+    padding: 0px 40px;
+    position: absolute;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 100px;
+    
+}
+.app span{
+    padding: 0px 90px;
+    position: absolute;
+}
+
+
+
+.botton-boxes{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 30px;
+}
+.box-one{
+    background-color:#403f51;
+    margin-bottom: 5px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    line-height: 1.5;
+    margin: 10px;
+    height: 200px;
+    width: 250px;
+    opacity: 0.9;
+    
+}
+.box-two{
+    background-color:#403f51;
+    margin-bottom: 5px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    line-height: 1.5;
+    margin: 10px;
+    height: 200px;
+    width: 250px;
+    opacity: 0.9;
+}
+.box-three{
+    background-color:#403f51;
+    margin-bottom: 5px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    line-height: 1.5;
+    margin: 10px;
+    height: 200px;
+    width: 250px;
+    opacity: 0.9;
+}
+.botton-boxes h3{
+    color: #dddcea;
+
+}
+.botton-boxes p{
+    color: #bab8cd;
+    font-size: 10px;
+}
+.botton-boxes img{
+    background-color: #363543;
+}
+.footer{
+position: absolute;
+bottom: 0px;
+   width:100%;
+   height:40px;   
+   background:#363543
+   
+
+}
